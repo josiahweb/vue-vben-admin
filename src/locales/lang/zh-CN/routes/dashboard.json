@@ -2,5 +2,9 @@
   "dashboard": "Dashboard",
   "about": "关于",
   "workbench": "工作台",
-  "analysis": "分析页"
+  "analysis": "分析页",
+  "bill": "账单",
+  "billOverview": "概览",
+  "incomeEdit": "收入编辑",
+  "disbursement": "支出编辑"
 }

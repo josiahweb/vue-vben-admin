@@ -170,5 +170,6 @@
     ".eslintrc.js": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelintrc.js"
   },
   "terminal.integrated.scrollback": 10000,
-  "nuxt.isNuxtApp": false
+  "nuxt.isNuxtApp": false,
+  "vue-i18n.i18nPaths": "src/locales,src/locales/lang,public/resource/tinymce/langs"
 }
