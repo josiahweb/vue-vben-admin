@@ -1,5 +1,10 @@
 <template>
-  <PageWrapper title="年度账单概览" contentFullHeight fixedHeight>
+  <PageWrapper
+    title="年度账单概览"
+    :content="`${day} 年度，总收入：${income}，总支出：${disbursement}，结余：${jy}`"
+    contentFullHeight
+    fixedHeight
+  >
     <VxeBasicTable ref="tableRef" v-bind="gridOptions">
       <template #action="{ row }">
         <TableAction outside :actions="createActions(row)" />
@@ -19,6 +24,11 @@
   import { vxeTableColumns, vxeTableFormSchema } from './tableData';
 
   const router = useRouter();
+
+  const day = '2023';
+  const income = 100;
+  const disbursement = 80;
+  const jy = 20;
 
   const { createMessage } = useMessage();
 

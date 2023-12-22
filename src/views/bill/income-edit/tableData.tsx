@@ -30,7 +30,7 @@ export const vxeTableColumns: VxeGridPropTypes.Columns = [
   },
 
   {
-    minWidth: 20,
+    width: 60,
     title: '操作',
     align: 'center',
     slots: { default: 'action' },
